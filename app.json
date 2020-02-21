@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/logs2/logs2",
+    "pages/myInfo/myInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "学习",
+        "iconPath": "pics/face-savouring-delicious-food_1f60b.png",
+        "selectedIconPath": "pics/face-with-party-horn-and-party-hat_1f973.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的打卡",
+        "iconPath": "pics/2.1.png",
+        "selectedIconPath": "pics/2.2.png"
+      },
+      {
+        "pagePath": "pages/logs2/logs2",
+        "text": "快乐",
+        "iconPath": "pics/3.1.png",
+        "selectedIconPath": "pics/3.2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

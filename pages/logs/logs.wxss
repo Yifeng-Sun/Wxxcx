@@ -1,0 +1,29 @@
+
+.userinfo-avatar { 
+  position:absolute;
+  left:20rpx;
+  top:40rpx;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  position:absolute;
+  left:180rpx;
+  top:60rpx;
+  font-size: 60;
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.checkedDaysShow{
+    position:absolute;
+    left:180rpx;
+    top:120rpx;
+    color: gray;
+}

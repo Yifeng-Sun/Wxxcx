@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class="container"> 
+<view>
+  <navigator url="../myInfo/myInfo" open-type="navigate">   <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image></navigator>
+   <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+   <text class="checkedDaysShow">你已打卡{{checkedDays}}天</text>
+</view>
+</view>
